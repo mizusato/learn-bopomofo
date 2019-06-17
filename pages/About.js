@@ -1,36 +1,27 @@
-import React, { Component } from 'react'
-import { StyleSheet, Text, View, FlatList, TouchableHighlight } from 'react-native'
-import Separator from '../widgets/Separator'
+import React, { useState } from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import SimpleList from '../widgets/SimpleList'
 
 
 let ListData = [{text:'ABC'},{text:'DEF'},{text:'Foo'},{text:'bar'}]
 
 
-function Item (item) {
-    console.log(item)
-    let { item: item_data } = item
-    return (
-        <TouchableHighlight onPress={()=>void(0)} underlayColor="hsla(0, 0%, 85%, 0.8)">
-          <Text style={{color:'black', paddingTop: 4, paddingBottom: 4, paddingLeft: 8, paddingRight: 8, fontSize: 18}}>{ item_data.text }</Text>
-        </TouchableHighlight>
-    )
-}
-
-
 export default function About () {
-    let data = ListData.map(
-        (I,i) => ({ text: I.text, key: String(i) })
-    )
+    let [clicked, setClicked] = useState('---')
+    let click = item => {
+        setClicked(item.text)
+    }
     return (
         <View style={style.container}>
             <View style={style.header}>
                 <Text style={style.title}>About</Text>
                 <Text>Lorem Ipsum.</Text>
+                <Text>{ clicked }</Text>
             </View>
-            <FlatList style={style.list}
-                      data={data}
-                      renderItem={Item}
-                      ItemSeparatorComponent={Separator} />
+            <SimpleList style={style.list}
+                        data={ListData} onItemClick={click} >
+                { item => <Text>{ item.text }</Text> }
+            </SimpleList>
         </View>
     )
 }
@@ -51,6 +42,6 @@ const style = StyleSheet.create({
         paddingLeft: 12
     },
     list: {
-        paddingTop: 22,        
+        paddingTop: 22,
     }
 })
