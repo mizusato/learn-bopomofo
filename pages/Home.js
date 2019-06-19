@@ -1,31 +1,31 @@
-import React, { Component } from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import React from 'react'
+import { View, Text } from 'react-native'
+import SimpleList from '../widgets/SimpleList'
+import g from '../styles/global'
+import m from '../styles/menu'
+import { Menu } from './tutorial/Index'
 
 
-export default function Home (props) {
-    let { navigate } = props.navigation
-    let goto_about = () => {
-        navigate('About')
+function Home (props) {
+    let goto = (item) => {
+        let page_id = String(item.index)
+        props.navigation.navigate(page_id)
     }
     return (
-        <View style={style.container}>
-            <Text style={style.title}>Change The World</Text>
-            <Text>This is the home page.</Text>
-            <Button onPress={goto_about} title="Goto About" />
-        </View>
+        <SimpleList data={Menu} onItemClick={goto}>
+            { (item) => (
+                <View style={m('item')}>
+                    <Text style={m('item_text')}>{ item.title }</Text>
+                </View>
+            ) }
+        </SimpleList>
     )
 }
 
 
-const style = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    title: {
-        fontSize: 28,
-        fontWeight: 'bold',
-        color: 'hsl(0, 0%, 10%)'
-    }
-})
+Home.navigationOptions = {
+    title: '注音符号教学'
+}
+
+
+export default Home

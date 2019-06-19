@@ -69,4 +69,9 @@ function create_sheet (table) {
 }
 
 
-export { create_sheet }
+function merge_style (style, props) {
+    return Object.assign({}, style, props.style || {})
+}
+
+
+export { create_sheet, merge_style }

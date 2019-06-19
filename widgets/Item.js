@@ -1,14 +1,28 @@
 import React from 'react'
-import { TouchableHighlight } from 'react-native'
-import g, { ItemUnderlay } from '../styles/global.js'
+import {
+    View,
+    TouchableHighlight,
+    TouchableNativeFeedback,
+    Platform
+} from 'react-native'
+
+import { ItemUnderlay } from '../styles/global.js'
 
 
 export default function Item (props) {
+    if (Platform.OS == 'android') {
+        return (
+            <TouchableNativeFeedback onPress={props.onClick} >
+                <View>
+                    { props.children }
+                </View>
+            </TouchableNativeFeedback>
+        )
+    }
     return (
         <TouchableHighlight onPress={props.onClick}
-                            style={g('item')}
-                            underlayColor={ItemUnderlay}>
-            { props.children }
+                            underlayColor={ItemUnderlay} >
+                { props.children }
         </TouchableHighlight>
     )
 }

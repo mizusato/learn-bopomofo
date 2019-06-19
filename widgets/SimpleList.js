@@ -1,7 +1,7 @@
 import React from 'react'
 import { FlatList } from 'react-native'
-import Item from './Item.js'
-import Separator from './Separator.js'
+import Item from './Item'
+import Separator from './Separator'
 
 
 export default function SimpleList (props) {
@@ -13,7 +13,9 @@ export default function SimpleList (props) {
         let { item } = wrapped_item
         let { item_data } = item
         let handler = () => {
-            props.onItemClick(item_data)
+            if (props.onItemClick) {
+                props.onItemClick(item_data)
+            }
         }
         return <Item onClick={handler}>{ mapper(item_data) }</Item>
     }

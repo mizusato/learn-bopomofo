@@ -1,27 +1,43 @@
 import { create_sheet } from '../tools/sheet'
 
 
-let ItemUnderlay = 'hsla(0, 0%, 85%, 0.8)'
+let ItemUnderlay = 'hsla(0, 0%, 85%, 0.4)'
 
 
 let GlobalStyleSheet = create_sheet({
-    item: {
-        padding: '8 16'
+    /* Content */
+    content: {
+        'padding': '14 18'
     },
+    p: {
+        'padding': '4 0'
+    },
+    span: {
+        'font-size': 18,
+        'color': 'hsl(0, 0%, 15%)'
+    },
+    /* SimpleList */
     separator: {
-        height: 1,
-        width: '100%',
-        'background-color': 'hsla(0, 0%, 75%, 0.8)'
+        'height': 1,
+        'width': '100%',
+        'background-color': 'hsla(0, 0%, 75%, 0.7)'
     },
-    black: {
-        color: 'black'
-    },
+    /* General */
     grow: {
-        flex: 1
+        'flex': 1
     },
     center: {
         'justify-content': 'center',
         'align-items': 'center'
+    },
+    big: {
+        'font-size': 20
+    },
+    red: {
+        'color': 'hsl(0, 90%, 60%)'
+    },
+    bold: {
+        'font-weight': 'bold'
     }
 })
 

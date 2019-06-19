@@ -1,10 +1,10 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 import Home from './pages/Home'
-import About from './pages/About'
+import { Pages } from './pages/tutorial/Index'
 
 
 const MainNavigator = createStackNavigator (
-    { Home, About },
+    Object.assign({ Home }, Pages),
     { initialRouteName: 'Home'}
 )
 
