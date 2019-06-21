@@ -2,9 +2,9 @@ import { assert } from './utility'
 
 
 let Colors = {
-    red: 'hsl(0, 90%, 55%)',
-    green: 'hsl(144, 90%, 35%)',
-    blue: 'hsl(233, 90%, 55%)'
+    red: 'hsl(0, 85%, 58%)',
+    green: 'hsl(144, 85%, 38%)',
+    blue: 'hsl(233, 85%, 58%)'
 }
 
 

@@ -18,20 +18,28 @@ let GlobalStyleSheet = create_sheet({
     display: {
         'flex-direction': 'row',
         'justify-content': 'center',
-        'align-items': 'flex-end'
+        'align-items': 'flex-end',
+        'flex-wrap': 'wrap',
+        'padding': '8 0'
+    },
+    d_ruby: {
+        'padding': '0 0 28 0'
     },
     span: {
-        'font-size': 18,
+        'font-size': 20,
         'color': 'hsl(0, 0%, 15%)'
     },
     /* Ruby */
     ruby: {
         'flex-direction': 'column'
     },
-    tip: {
-        'font-size': 12,
+    ruby_tip: {
+        'font-size': 14,
         'text-align': 'center',
         'color': 'hsl(0, 0%, 30%)'
+    },
+    ruby_span: {
+        'font-size': 20
     },
     /* SimpleList */
     separator: {

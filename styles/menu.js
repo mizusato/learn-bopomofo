@@ -7,7 +7,7 @@ let MenuStylesheet = create_sheet({
     },
     item_text: {
         'color': 'hsl(0, 0%, 15%)',
-        'font-size': 24
+        'font-size': 22
     }
 })
 

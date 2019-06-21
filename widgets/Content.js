@@ -34,6 +34,18 @@ let Bold = props => (
 )
 
 
+let Ruby = props => (
+    <View style={merge_style(g('ruby'), props)}>
+        <Text style={merge_style(g('ruby_tip'), { style: props.tipStyle, color: props.color })} selectable={true} >
+            { props.tip }
+        </Text>
+        <Span style={merge_style(g('ruby_span'), { style: props.spanStyle, color: props.color })} >
+            { props.children }
+        </Span>
+    </View>
+)
+
+
 let Display = props => (
     <View style={merge_style(g('display'), props)}>
         { props.children }
@@ -41,4 +53,4 @@ let Display = props => (
 )
 
 
-export { Content, P, Span, Bold, Display }
+export { Content, P, Span, Bold, Ruby, Display }
