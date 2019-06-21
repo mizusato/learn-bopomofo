@@ -10,11 +10,28 @@ let GlobalStyleSheet = create_sheet({
         'padding': '14 18'
     },
     p: {
-        'padding': '4 0'
+        'padding': '4 0',
+        'flex-direction': 'row',
+        'flex-wrap': 'wrap',
+        'align-items': 'flex-end'
+    },
+    display: {
+        'flex-direction': 'row',
+        'justify-content': 'center',
+        'align-items': 'flex-end'
     },
     span: {
         'font-size': 18,
         'color': 'hsl(0, 0%, 15%)'
+    },
+    /* Ruby */
+    ruby: {
+        'flex-direction': 'column'
+    },
+    tip: {
+        'font-size': 12,
+        'text-align': 'center',
+        'color': 'hsl(0, 0%, 30%)'
     },
     /* SimpleList */
     separator: {
@@ -32,9 +49,6 @@ let GlobalStyleSheet = create_sheet({
     },
     big: {
         'font-size': 20
-    },
-    red: {
-        'color': 'hsl(0, 90%, 60%)'
     },
     bold: {
         'font-weight': 'bold'

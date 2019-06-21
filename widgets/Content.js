@@ -27,5 +27,18 @@ let Span = props => (
     </Text>
 )
 
+let Bold = props => (
+    <Span style={merge_style(g('bold'), props)}>
+        { props.children }
+    </Span>
+)
 
-export { Content, P, Span }
+
+let Display = props => (
+    <View style={merge_style(g('display'), props)}>
+        { props.children }
+    </View>
+)
+
+
+export { Content, P, Span, Bold, Display }

@@ -1,6 +1,13 @@
 import { assert } from './utility'
 
 
+let Colors = {
+    red: 'hsl(0, 90%, 55%)',
+    green: 'hsl(144, 90%, 35%)',
+    blue: 'hsl(233, 90%, 55%)'
+}
+
+
 function normalize_table (table) {
     assert(table instanceof Object)
     let to_camel_case = prop => {
@@ -70,7 +77,13 @@ function create_sheet (table) {
 
 
 function merge_style (style, props) {
-    return Object.assign({}, style, props.style || {})
+    assert(style instanceof Object)
+    let prop_style = Object.assign({}, props.style || {})
+    if (props.color) {
+        assert(Colors[props.color])
+        prop_style.color = Colors[props.color]
+    }
+    return Object.assign({}, style, prop_style)
 }
 
 
