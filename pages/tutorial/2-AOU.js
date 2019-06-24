@@ -1,5 +1,6 @@
 import React from 'react'
 import { Content, P, Span } from '../../widgets/Content'
+import Pager from '../../widgets/Pager'
 import g from '../../styles/global'
 
 
@@ -8,14 +9,12 @@ let AOU = props => (
         <P>
             <Span>Hello World</Span>
         </P>
+        <Pager info={props.nav_info} />
     </Content>
 )
 
 
 AOU.title = '② 單元音 (1) ㄚㄛㄨ / a, o, u'
-AOU.navigationOptions = {
-    title: AOU.title
-}
 
 
 export default AOU

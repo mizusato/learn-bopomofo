@@ -1,5 +1,6 @@
 import React from 'react'
 import { Content, P, Span, Bold, Ruby, Display } from '../../widgets/Content'
+import Pager from '../../widgets/Pager'
 import g from '../../styles/global'
 
 
@@ -15,14 +16,13 @@ let Intro = props => (
         <P><Span>注音和拼音的聲調標註方法雖然不同，但是區別並不是太大——真正會使學習者不斷犯錯誤的，其實是<Bold>韻母</Bold>的差別。在將多個簡單韻母組合成一個複雜韻母時，注音和拼音採用了不同的組合規則。下面來看兩個例子：</Span></P>
         <P><Span>1. 「油」字，拼音為「y<Span color='green'>óu</Span>」，注音為「ㄧ<Span color='green'>ㄡˊ</Span>」；「球」字，拼音為「qi<Span color='blue'>ú</Span>」，注音為「ㄑㄧ<Span color='blue'>ㄡˊ</Span>」。假如單看「油」字，「<Bold>ㄡ</Bold>」似乎和「<Bold>ou</Bold>」對應；然而再看「球」字，「<Bold>ㄡ</Bold>」似乎和「<Bold>u</Bold>」也是對應的，莫名其妙，一個注音符號竟對應多個拼音字母！不過，如果仔細比較它們的讀音就會發現：「球」的準確讀法是「qióu」，而漢語拼音把它簡寫成「qiú」了。</Span></P>
         <P><Span>2. 「得」字，拼音為「d<Span color='green'>é</Span>」，注音為「ㄉ<Span color='green'>ㄜˊ</Span>」；「迭」字，拼音為「di<Span color='blue'>é</Span>」，注音為「ㄉㄧ<Span color='blue'>ㄝˊ</Span>」。假如單看「得」字，「<Bold>e</Bold>」似乎和「<Bold>ㄜ</Bold>」對應；然而再看「迭」字，「<Bold>e</Bold>」似乎又和「<Bold>ㄝ</Bold>」對應，這是為什麽呢？很顯然，這兩個字中的兩個「e」讀作不同的音，漢語拼音卻把它們都寫成「e」，於是就造成了這種一個拼音字母對應多個注音符號的情形。</Span></P>
+        <P><Span>可見，在韻母的拼法上，拼音字母與注音符號並不能一一對應，學習者稍有不慎就容易搞錯。不過不用煩惱，因為接下來的課程不僅會說明注音符號本身的讀音，也會講解注音符號與漢語拼音在拼法上的不同。</Span></P>
+        <Pager info={props.nav_info} />
     </Content>
 )
 
 
 Intro.title = '簡介：注音與拼音的不同點'
-Intro.navigationOptions = {
-    title: Intro.title
-}
 
 
 export default Intro

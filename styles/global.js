@@ -41,6 +41,21 @@ let GlobalStyleSheet = create_sheet({
     ruby_span: {
         'font-size': 20
     },
+    /* Pager */
+    pager: {
+        'padding': '12 0',
+        'flex-direction': 'row',
+        'overflow': 'hidden'
+    },
+    pager_text: {
+        'font-size': 18
+    },
+    pager_link: {
+        'color': 'hsl(233, 80%, 60%)'
+    },
+    pager_separator: {
+        'padding': '0 6'
+    },
     /* SimpleList */
     separator: {
         'height': 1,
@@ -49,7 +64,12 @@ let GlobalStyleSheet = create_sheet({
     },
     /* General */
     grow: {
-        'flex': 1
+        'flex-grow': 1,
+        'flex-shrink': 0
+    },
+    shrink: {
+        'flex-shrink': 1,
+        'flex-grow': 0
     },
     center: {
         'justify-content': 'center',
@@ -60,6 +80,9 @@ let GlobalStyleSheet = create_sheet({
     },
     bold: {
         'font-weight': 'bold'
+    },
+    horizontal: {
+        'flex-direction': 'row'
     }
 })
 
