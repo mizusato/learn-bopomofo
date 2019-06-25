@@ -15,21 +15,10 @@ let GlobalStyleSheet = create_sheet({
         'flex-wrap': 'wrap',
         'align-items': 'flex-end'
     },
-    display: {
-        'flex-direction': 'row',
-        'justify-content': 'center',
-        'align-items': 'flex-end',
-        'flex-wrap': 'wrap',
-        'padding': '8 0'
-    },
-    d_ruby: {
-        'padding': '0 0 28 0'
-    },
     span: {
         'font-size': 20,
         'color': 'hsl(0, 0%, 15%)'
     },
-    /* Ruby */
     ruby: {
         'flex-direction': 'column'
     },
@@ -40,6 +29,20 @@ let GlobalStyleSheet = create_sheet({
     },
     ruby_span: {
         'font-size': 20
+    },
+    img: {
+        'width': '100%',
+        'margin': '12 0'
+    },
+    display: {
+        'flex-direction': 'row',
+        'justify-content': 'center',
+        'align-items': 'flex-end',
+        'flex-wrap': 'wrap',
+        'padding': '8 0'
+    },
+    d_ruby: {
+        'padding': '0 0 28 0'
     },
     /* Pager */
     pager: {
@@ -76,7 +79,7 @@ let GlobalStyleSheet = create_sheet({
         'align-items': 'center'
     },
     big: {
-        'font-size': 20
+        'font-size': 26
     },
     bold: {
         'font-weight': 'bold'

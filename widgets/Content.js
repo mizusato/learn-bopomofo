@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, View, Text } from 'react-native'
+import { ScrollView, View, Text, Image } from 'react-native'
 import { merge_style } from '../tools/sheet'
 import g from '../styles/global'
 
@@ -34,6 +34,15 @@ let Bold = props => (
 )
 
 
+let Title = props => (
+    <P style={merge_style({}, props)}>
+        <Span style={merge_style(g('bold', 'big'), { style: props.spanStyle })}>
+            { props.children }
+        </Span>
+    </P>
+)
+
+
 let Ruby = props => (
     <View style={merge_style(g('ruby'), props)}>
         <Text style={merge_style(g('ruby_tip'), { style: props.tipStyle, color: props.color })} selectable={true} >
@@ -46,6 +55,11 @@ let Ruby = props => (
 )
 
 
+let Img = props => (
+    <Image style={g('img')} source={props.src} />
+)
+
+
 let Display = props => (
     <View style={merge_style(g('display'), props)}>
         { props.children }
@@ -53,4 +67,4 @@ let Display = props => (
 )
 
 
-export { Content, P, Span, Bold, Ruby, Display }
+export { Content, P, Span, Bold, Title, Ruby, Img, Display }
