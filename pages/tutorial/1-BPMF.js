@@ -10,6 +10,8 @@ let BPMF = props => (
         <Title>1. ㄅ = b</Title>
         <Img src={require('../../assets/b.png')} />
         <P><Span>第一個注音符號「ㄅ」，取自「包」的古字「勹」（即「包」字的右上部分），並將原來的兩筆簡省成了一筆。</Span></P>
+        <Title>2. ㄆ = p</Title>
+        <Img src={require('../../assets/p.png')} />
         <Pager info={props.nav_info} />
     </Content>
 )
