@@ -44,6 +44,9 @@ let GlobalStyleSheet = create_sheet({
     d_ruby: {
         'padding': '0 0 28 0'
     },
+    sub: {
+        'font-size': 12
+    },
     /* Pager */
     pager: {
         'padding': '12 0',

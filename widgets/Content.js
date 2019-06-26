@@ -55,8 +55,15 @@ let Ruby = props => (
 )
 
 
+let Sub = props => (
+    <Text style={merge_style(g('sub'), props)}>
+        { props.children }
+    </Text>
+)
+
+
 let Img = props => (
-    <Image style={g('img')} source={props.src} />
+    <Image style={g('img')} resizeMode='stretch' source={props.src} />
 )
 
 
@@ -67,4 +74,4 @@ let Display = props => (
 )
 
 
-export { Content, P, Span, Bold, Title, Ruby, Img, Display }
+export { Content, P, Span, Bold, Title, Ruby, Sub, Img, Display }

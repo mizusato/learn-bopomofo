@@ -1,5 +1,4 @@
 import React from 'react'
-import { Image } from 'react-native'
 import { Content, P, Span, Bold, Title, Img } from '../../widgets/Content'
 import Pager from '../../widgets/Pager'
 import g from '../../styles/global'
@@ -18,6 +17,7 @@ let BPMF = props => (
         <P><Span>「ㄇ」來源於「冪」的古字「冖」，表示「覆蓋」之意。粵語常用字「<Bold>冚</Bold>」（音 [kʰɜm³⁵]，表示蓋、扣）即是通過部首「<Bold>冖</Bold>」來表意的。在粵語中「<Span color='red'>冚</Span>被」=「<Span color='red'>蓋</Span>被子」；「政府<Span color='blue'>冚實晒</Span>啲消息」=「政府<Span color='blue'>全面封鎖</Span>消息」。</Span></P>
         <Title>4. ㄈ = f</Title>
         <Img src={require('../../assets/f.png')} />
+        <P><Span>「ㄈ」來源於「匚」字，《說文》：「匚，<Bold>受物之器</Bold>。象形。凡匚之屬皆从匚。讀若<Bold>方</Bold>」。以「匚」部首的字有「匣」、「匡」、「匪」等等，其中「匡」是「筐」的本字，「匪」是「篚」的本字，它們原本都是表示容器的字。</Span></P>
         <Pager info={props.nav_info} />
     </Content>
 )
