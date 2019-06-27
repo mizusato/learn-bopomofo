@@ -68,6 +68,36 @@ let GlobalStyleSheet = create_sheet({
         'width': '100%',
         'background-color': 'hsla(0, 0%, 75%, 0.7)'
     },
+    /* Quiz */
+    quiz: {
+        'flex-grow': 1,
+        'justify-content': 'center',
+        'align-items': 'center'
+    },
+    quiz_char: {
+        'font-size': 121,
+        'color': 'hsl(0, 0%, 20%)'
+    },
+    quiz_info: {
+        'flex-direction': 'row'
+    },
+    quiz_info_text: {
+        'font-size': 18,
+        'color': 'hsl(0, 0%, 40%)'
+    },
+    quiz_info_sep: {
+        'margin': '0 8'
+    },
+    quiz_row: {
+        'flex-direction': 'row'
+    },
+    quiz_option: {
+        padding: '4 8'
+    },
+    quiz_option_text: {
+        'font-size': 48,
+        'color': 'hsl(0, 0%, 20%)'
+    },
     /* General */
     grow: {
         'flex-grow': 1,
