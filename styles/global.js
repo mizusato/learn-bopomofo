@@ -5,6 +5,12 @@ let ItemUnderlay = 'hsla(0, 0%, 85%, 0.4)'
 
 
 let GlobalStyleSheet = create_sheet({
+    /* SimpleList */
+    separator: {
+        'height': 1,
+        'width': '100%',
+        'background-color': 'hsla(0, 0%, 75%, 0.7)'
+    },
     /* Content */
     content: {
         'padding': '14 18'
@@ -62,11 +68,12 @@ let GlobalStyleSheet = create_sheet({
     pager_separator: {
         'padding': '0 6'
     },
-    /* SimpleList */
-    separator: {
-        'height': 1,
-        'width': '100%',
-        'background-color': 'hsla(0, 0%, 75%, 0.7)'
+    next_button: {
+        'margin': '12 0'
+    },
+    next_button_text: {
+        'font-size': 20,
+        'color': 'hsl(233, 85%, 60%)'
     },
     /* Quiz */
     quiz: {
@@ -74,8 +81,12 @@ let GlobalStyleSheet = create_sheet({
         'justify-content': 'center',
         'align-items': 'center'
     },
+    quiz_buffer: {
+        'font-size': 30,
+        'color': 'hsl(0, 0%, 10%)'
+    },
     quiz_char: {
-        'font-size': 121,
+        'font-size': 100,
         'color': 'hsl(0, 0%, 20%)'
     },
     quiz_info: {
@@ -96,7 +107,11 @@ let GlobalStyleSheet = create_sheet({
     },
     quiz_option_text: {
         'font-size': 48,
-        'color': 'hsl(0, 0%, 20%)'
+        'color': 'hsl(0, 0%, 25%)'
+    },
+    quiz_del: {
+        'font-size': 48,
+        'color': 'hsl(0, 0%, 40%)'
     },
     /* General */
     grow: {

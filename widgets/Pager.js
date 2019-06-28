@@ -11,6 +11,23 @@ function Pager (props) {
     function next () {
         props.navigation.replace(String(props.info.next.index))
     }
+    if (props.onlyNext) {
+        if (props.info.next == null) {
+            return <View></View>
+        }
+        return (
+            <View style={g('next_button')}>
+                <TouchableOpacity onPress={next}>
+                    <Text style={g('next_button_text')}>
+                        繼續學習下一節：
+                    </Text>
+                    <Text style={g('next_button_text')}>
+                        { props.info.next.title }
+                    </Text>
+                </TouchableOpacity>
+            </View>
+        )
+    }
     return (
         <View style={g('pager')}>
             { (props.info.previous != null)? (
