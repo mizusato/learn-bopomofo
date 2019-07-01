@@ -63,7 +63,7 @@ let Sub = props => (
 
 
 let Img = props => (
-    <Image style={g('img')} resizeMode='stretch' source={props.src} />
+    <Image style={g('img')} resizeMode='contain' source={props.src} />
 )
 
 
