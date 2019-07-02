@@ -8,7 +8,13 @@ let IUYE = props => {
     return (
         <Content>
             <Title>1. ㄧ = i, y</Title>
-
+            <Img src={require('../../assets/i.png')} />
+            <Title>2. ㄨ = w, u</Title>
+            <Img src={require('../../assets/u.png')} />
+            <Title>3. ㄩ = ü</Title>
+            <Img src={require('../../assets/yu.png')} />
+            <Title>4. ㄝ = ê</Title>
+            <Img src={require('../../assets/ee.png')} />
             <Pager info={props.nav_info} />
         </Content>
     )
