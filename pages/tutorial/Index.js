@@ -4,9 +4,10 @@ import BPMF from './1-BPMF'
 import AOE from './2-AOE'
 import Quiz_1 from './3-Quiz-1'
 import DTNL from './4-DTNL'
+import IUYE from './5-IUYE'
 
 
-let Chapters = [ Intro, BPMF, AOE, Quiz_1, DTNL ]
+let Chapters = [ Intro, BPMF, AOE, Quiz_1, DTNL, IUYE ]
 
 let Menu = Chapters.map((Chapter, i) => {
     assert(typeof Chapter.title == 'string')

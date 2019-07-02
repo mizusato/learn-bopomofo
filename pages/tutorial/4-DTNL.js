@@ -17,11 +17,12 @@ let DTNL = props => {
             <P><Span></Span></P>
             <Title>3. ㄋ = n</Title>
             <Img src={require('../../assets/n.png')} />
-            <P><Span>「ㄋ」來源於「乃」的古字「𠄎」，象繩索抛出之狀，疑為「扔」的本字。表示「乃」的韻母「n」。</Span></P>
+            <P><Span>「ㄋ」來源於「乃」的古字「𠄎」，象繩索抛出之狀，疑為「扔」的本字。表示「乃」的聲母「n」。</Span></P>
             <Title>4. ㄌ = l</Title>
             <Img src={require('../../assets/l.png')} />
-            <P><Span>「ㄌ」表示「力」的韻母「l」，來源於「力」的古字「{String.fromCodePoint(0x20832)}<Sub>U+20832</Sub>」：</Span></P>
+            <P><Span>「ㄌ」表示「力」的聲母「l」，來源於「力」的古字「{String.fromCodePoint(0x20832)}<Sub>U+20832</Sub>」：</Span></P>
             <Img src={require('../../assets/lik-kai.png')} />
+            <Pager info={props.nav_info} />
         </Content>
     )
 }
