@@ -13,7 +13,7 @@ let IUYE = props => {
         <Content>
             <Title>1. ㄧ = y, i</Title>
             <Img src={require('../../assets/i.png')} />
-            <P><Span>「ㄧ」的發音和字形均與「一」字相同，但在竪排文字中寫成一竪。表示「y」聲母或「i」韻母，如：</Span></P>
+            <P><Span>「ㄧ」的發音和字形均與「一」字相同，但在横排文字中可寫成一竪（因此有些電腦字型會做成一竪）。表示「y」聲母或「i」韻母，如：</Span></P>
             <Display>
                 <P><Span>鴨 = <Span color='blue'>y</Span>ā = <Span color='blue'>ㄧ</Span>ㄚ</Span></P>
             </Display>
