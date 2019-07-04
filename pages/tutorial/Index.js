@@ -7,14 +7,23 @@ import DTNL from './4-DTNL'
 import IUYE from './5-IUYE'
 import Quiz_2 from './6-Quiz-2'
 import GKH from './7-GKH'
+import AI_EI_AO_OU from './8-AI-EI-AO-OU.js'
 
 
-let Chapters = [ Intro, BPMF, AOE, Quiz_1, DTNL, IUYE, Quiz_2, GKH ]
+let Chapters = [
+    Intro,
+    BPMF, AOE, Quiz_1,
+    DTNL, IUYE, Quiz_2,
+    GKH, AI_EI_AO_OU
+]
+
 
 let Menu = Chapters.map((Chapter, i) => {
     assert(typeof Chapter.title == 'string')
     return { index: i, title: Chapter.title }
 })
+
+
 let Pages = (() => {
     let h = {}
     for (let i = 0; i < Chapters.length; i += 1) {
