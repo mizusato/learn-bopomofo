@@ -9,13 +9,15 @@ import Quiz_2 from './6-Quiz-2'
 import GKH from './7-GKH'
 import AI_EI_AO_OU from './8-AI-EI-AO-OU.js'
 import Quiz_3 from './9-Quiz-3'
+import JQX from './10-JQX'
 
 
 let Chapters = [
     Intro,
     BPMF, AOE, Quiz_1,
     DTNL, IUYE, Quiz_2,
-    GKH, AI_EI_AO_OU, Quiz_3
+    GKH, AI_EI_AO_OU, Quiz_3,
+    JQX
 ]
 
 
