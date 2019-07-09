@@ -7,9 +7,10 @@ import DTNL from './4-DTNL'
 import IUYE from './5-IUYE'
 import Quiz_2 from './6-Quiz-2'
 import GKH from './7-GKH'
-import AI_EI_AO_OU from './8-AI-EI-AO-OU.js'
+import AI_EI_AO_OU from './8-AI-EI-AO-OU'
 import Quiz_3 from './9-Quiz-3'
 import JQX from './10-JQX'
+import AN_EN_ANG_ENG from './11-AN-EN-ANG-ENG'
 
 
 let Chapters = [
@@ -17,7 +18,7 @@ let Chapters = [
     BPMF, AOE, Quiz_1,
     DTNL, IUYE, Quiz_2,
     GKH, AI_EI_AO_OU, Quiz_3,
-    JQX
+    JQX, AN_EN_ANG_ENG
 ]
 
 
