@@ -25,6 +25,9 @@ let GlobalStyleSheet = create_sheet({
         'font-size': 20,
         'color': 'hsl(0, 0%, 15%)'
     },
+    a: {
+        'color': 'hsl(233, 80%, 60%)'
+    },
     ruby: {
         'flex-direction': 'column'
     },

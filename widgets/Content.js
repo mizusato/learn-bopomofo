@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, View, Text, Image } from 'react-native'
+import { ScrollView, View, Text, Image, TouchableOpacity, Linking } from 'react-native'
 import { merge_style } from '../tools/sheet'
 import g from '../styles/global'
 
@@ -26,6 +26,15 @@ let Span = props => (
         { props.children }
     </Text>
 )
+
+
+let A = props => (
+    <Text style={merge_style(g('a'), props)}
+            onPress={()=>{Linking.openURL(props.href)}} >
+        { props.children }
+    </Text>
+)
+
 
 let Bold = props => (
     <Span style={merge_style(g('bold'), props)}>
@@ -74,4 +83,4 @@ let Display = props => (
 )
 
 
-export { Content, P, Span, Bold, Title, Ruby, Sub, Img, Display }
+export { Content, P, Span, A, Bold, Title, Ruby, Sub, Img, Display }

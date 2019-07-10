@@ -9,6 +9,7 @@ let ZH_CH_SH_R_ER = props => {
         <Content>
             <Title>1. ㄓ = zh</Title>
             <Img src={require('../../assets/zh.png')} />
+            <Img src={require('../../assets/zi.png')} />
             <P><Span></Span></P>
             <Title>2. ㄔ = ch</Title>
             <Img src={require('../../assets/ch.png')} />
