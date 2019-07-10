@@ -11,6 +11,10 @@ import AI_EI_AO_OU from './8-AI-EI-AO-OU'
 import Quiz_3 from './9-Quiz-3'
 import JQX from './10-JQX'
 import AN_EN_ANG_ENG from './11-AN-EN-ANG-ENG'
+import Quiz_4 from './12-Quiz-4'
+import ZCS from './13-ZCS'
+import ZH_CH_SH_R_ER from './14-ZH-CH-SH-R-ER'
+import FinalExam from './15-Final-Exam'
 
 
 let Chapters = [
@@ -18,7 +22,8 @@ let Chapters = [
     BPMF, AOE, Quiz_1,
     DTNL, IUYE, Quiz_2,
     GKH, AI_EI_AO_OU, Quiz_3,
-    JQX, AN_EN_ANG_ENG
+    JQX, AN_EN_ANG_ENG, Quiz_4,
+    ZCS, ZH_CH_SH_R_ER, FinalExam
 ]
 
 
