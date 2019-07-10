@@ -28,7 +28,7 @@ let ZH_CH_SH_R_ER = props => {
 }
 
 
-ZH_CH_SH_R_ER.title = '⑨ 卷舌音 ㄓㄔㄕㄖㄦ /  zh, ch, sh, r, er'
+ZH_CH_SH_R_ER.title = '📙  卷舌音 ㄓㄔㄕㄖㄦ /  zh, ch, sh, r, er'
 
 
 export default ZH_CH_SH_R_ER

@@ -28,7 +28,7 @@ function Quiz_3 (props) {
 }
 
 
-Quiz_3.title = 'Quiz (3)'
+Quiz_3.title = '📝  Quiz (3)'
 
 
 export default Quiz_3

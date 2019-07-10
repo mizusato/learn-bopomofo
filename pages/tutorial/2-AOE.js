@@ -19,7 +19,7 @@ let AOE = props => (
 )
 
 
-AOE.title = '② 單元音 (1) ㄚㄛㄜ / a, o, e'
+AOE.title = '📙  單元音 (1) ㄚㄛㄜ / a, o, e'
 
 
 export default AOE

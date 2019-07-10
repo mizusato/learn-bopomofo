@@ -1,4 +1,5 @@
 import { assert } from '../../tools/utility'
+import About from './00-About'
 import Intro from './0-Intro'
 import BPMF from './1-BPMF'
 import AOE from './2-AOE'
@@ -18,6 +19,7 @@ import FinalExam from './15-Final-Exam'
 
 
 let Chapters = [
+    About,
     Intro,
     BPMF, AOE, Quiz_1,
     DTNL, IUYE, Quiz_2,

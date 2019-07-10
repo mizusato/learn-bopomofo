@@ -23,7 +23,7 @@ let BPMF = props => (
 )
 
 
-BPMF.title = '① 唇音 ㄅㄆㄇㄈ / b, p, m, f'
+BPMF.title = '📙  唇音 ㄅㄆㄇㄈ / b, p, m, f'
 
 
 export default BPMF

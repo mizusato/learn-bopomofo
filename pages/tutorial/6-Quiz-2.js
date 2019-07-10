@@ -39,7 +39,7 @@ function Quiz_2 (props) {
 }
 
 
-Quiz_2.title = 'Quiz (2)'
+Quiz_2.title = '📝  Quiz (2)'
 
 
 export default Quiz_2

@@ -70,7 +70,7 @@ let IUYE = props => {
 }
 
 
-IUYE.title = '④ 單元音 (2) ㄧㄨㄩㄝ / i, u, ü, ê'
+IUYE.title = '📙  單元音 (2) ㄧㄨㄩㄝ / i, u, ü, ê'
 
 
 export default IUYE

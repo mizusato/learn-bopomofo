@@ -42,7 +42,7 @@ let AN_EN_ANG_ENG = props => {
 }
 
 
-AN_EN_ANG_ENG.title = '⑧ 鼻音 ㄢㄣㄤㄥ / an, en, ang, eng'
+AN_EN_ANG_ENG.title = '📙  鼻音 ㄢㄣㄤㄥ / an, en, ang, eng'
 
 
 export default AN_EN_ANG_ENG

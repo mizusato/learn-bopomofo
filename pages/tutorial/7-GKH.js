@@ -22,7 +22,7 @@ let GKH = props => {
 }
 
 
-GKH.title = '⑤ 舌根音 ㄍㄎㄏ / g, k, h'
+GKH.title = '📙 舌根音  ㄍㄎㄏ / g, k, h'
 
 
 export default GKH

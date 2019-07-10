@@ -25,7 +25,7 @@ let AI_EI_AO_OU = props => {
 }
 
 
-AI_EI_AO_OU.title = '⑥ 雙元音 ㄞㄟㄠㄡ / ai, ei, ao, ou'
+AI_EI_AO_OU.title = '📙  雙元音 ㄞㄟㄠㄡ / ai, ei, ao, ou'
 
 
 export default AI_EI_AO_OU

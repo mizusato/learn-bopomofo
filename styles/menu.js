@@ -6,8 +6,8 @@ let MenuStylesheet = create_sheet({
         'padding': '10 16'
     },
     item_text: {
-        'color': 'hsl(0, 0%, 15%)',
-        'font-size': 22
+        'color': 'hsl(0, 0%, 35%)',
+        'font-size': 21
     }
 })
 

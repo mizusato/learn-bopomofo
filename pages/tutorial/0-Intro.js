@@ -22,7 +22,7 @@ let Intro = props => (
 )
 
 
-Intro.title = '簡介：注音與拼音的不同點'
+Intro.title = '📙  注音與拼音的不同點'
 
 
 export default Intro

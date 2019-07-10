@@ -22,7 +22,7 @@ let JQX = props => {
 }
 
 
-JQX.title = '⑦ 舌面音 ㄐㄑㄒ /  j, q, x'
+JQX.title = '📙  舌面音 ㄐㄑㄒ /  j, q, x'
 
 
 export default JQX

@@ -28,7 +28,7 @@ let DTNL = props => {
 }
 
 
-DTNL.title = '③ 舌尖音 ㄉㄊㄋㄌ / d, t, n, l'
+DTNL.title = '📙  舌尖音 ㄉㄊㄋㄌ / d, t, n, l'
 
 
 export default DTNL

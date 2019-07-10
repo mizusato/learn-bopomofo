@@ -16,7 +16,7 @@ function FinalExam (props) {
 }
 
 
-FinalExam.title = 'Final Exam'
+FinalExam.title = '📝  Final Exam'
 
 
 export default FinalExam

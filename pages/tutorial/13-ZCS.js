@@ -22,7 +22,7 @@ let ZCS = props => {
 }
 
 
-ZCS.title = '⑨ 平舌音 ㄗㄘㄙ /  z, c, s'
+ZCS.title = '📙  平舌音 ㄗㄘㄙ /  z, c, s'
 
 
 export default ZCS
