@@ -1,5 +1,4 @@
 import React from 'react'
-import { View, Text } from 'react-native'
 import Quiz from '../../widgets/Quiz'
 
 
@@ -9,9 +8,9 @@ let QuizData = [
     { chars: '類累雷淚',  anwser: 'ㄌㄟ',   options: 'ㄍㄎㄏㄞㄟㄠㄡㄌ' },
     { chars: '後厚后猴',  anwser: 'ㄏㄡ',   options: 'ㄍㄎㄏㄞㄟㄠㄡㄌ' },
     { chars: '哭酷苦褲',  anwser: 'ㄎㄨ',   options: 'ㄍㄎㄏㄩㄟㄠㄡㄨ' },
-    { chars: '卡',       anwser: 'ㄎㄚ',   options: 'ㄍㄎㄏㄩㄟㄚㄛㄜ' },
-    { chars: '哈',       anwser: 'ㄏㄚ',   options: 'ㄍㄎㄏㄩㄟㄚㄛㄜ' },
-    { chars: '過國果鍋',  anwser: 'ㄍㄨㄛ',  options: 'ㄍㄎㄏㄩㄟㄨㄛㄜ' },
+    { chars: '卡',        anwser: 'ㄎㄚ',   options: 'ㄍㄎㄏㄩㄟㄚㄛㄜ' },
+    { chars: '哈',        anwser: 'ㄏㄚ',   options: 'ㄍㄎㄏㄩㄟㄚㄛㄜ' },
+    { chars: '過國果鍋',  anwser: 'ㄍㄨㄛ', options: 'ㄍㄎㄏㄩㄟㄨㄛㄜ' },
     { chars: '個各歌割',  anwser: 'ㄍㄜ',   options: 'ㄍㄎㄏㄩㄟㄨㄛㄜ' },
     { chars: '白擺拜敗',  anwser: 'ㄅㄞ',   options: 'ㄅㄆㄉㄋㄠㄡㄞㄟ' },
     { chars: '拍派牌湃',  anwser: 'ㄆㄞ',   options: 'ㄅㄆㄉㄋㄠㄡㄞㄟ' },

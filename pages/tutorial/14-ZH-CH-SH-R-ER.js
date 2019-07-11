@@ -1,5 +1,5 @@
 import React from 'react'
-import { Content, P, Span, Bold, Title, Img, Sub } from '../../widgets/Content'
+import { Content, P, Span, Bold, Title, Img, Sub, Display } from '../../widgets/Content'
 import Pager from '../../widgets/Pager'
 import g from '../../styles/global'
 
@@ -23,6 +23,11 @@ let ZH_CH_SH_R_ER = props => {
             <Title>5. ㄦ = er</Title>
             <Img src={require('../../assets/er.png')} />
             <P><Span>「ㄦ」截取自「兒」字的下半部分，表示「兒」字的讀音「er」。</Span></P>
+            <P><Span>
+            需要注意的是，「zhi」「chi」「shi」「r」在注音中拼作「ㄓ」「ㄔ」「ㄕ」「ㄖ」（即 zh, ch, sh, r），而不是「ㄓㄧ」「ㄔㄧ」「ㄕㄧ」「ㄖㄧ」，如：</Span></P>
+            <Display>
+                <P><Span>池 = <Span color='green'>chí</Span> = <Span color='green'>ㄔˊ</Span></Span></P>
+            </Display>
             <Pager info={props.nav_info} />
         </Content>
     )

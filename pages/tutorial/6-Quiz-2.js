@@ -1,5 +1,4 @@
 import React from 'react'
-import { View, Text } from 'react-native'
 import Quiz from '../../widgets/Quiz'
 
 
@@ -12,19 +11,19 @@ let QuizData = [
     { chars: '比必筆幣',  anwser: 'ㄅㄧ',   options: 'ㄅㄆㄉㄧㄨㄋㄌㄩ' },
     { chars: '皮批屁披',  anwser: 'ㄆㄧ',   options: 'ㄅㄆㄉㄧㄨㄋㄌㄩ' },
     { chars: '提體題踢',  anwser: 'ㄊㄧ',   options: 'ㄅㄆㄉㄧㄨㄋㄌㄊ' },
-    { chars: '別',       anwser: 'ㄅㄧㄝ',  options: 'ㄅㄆㄉㄧㄨㄌㄝㄋ' },
-    { chars: '撇瞥',      anwser: 'ㄆㄧㄝ',  options: 'ㄅㄆㄉㄧㄨㄊㄝㄋ' },
-    { chars: '跌碟蝶疊',  anwser: 'ㄉㄧㄝ',  options: 'ㄅㄆㄉㄧㄨㄌㄝㄩ' },
-    { chars: '貼鐵',      anwser: 'ㄊㄧㄝ',  options: 'ㄅㄆㄉㄧㄨㄊㄝㄩ' },
+    { chars: '別',        anwser: 'ㄅㄧㄝ', options: 'ㄅㄆㄉㄧㄨㄌㄝㄋ' },
+    { chars: '撇瞥',      anwser: 'ㄆㄧㄝ', options: 'ㄅㄆㄉㄧㄨㄊㄝㄋ' },
+    { chars: '跌碟蝶疊',  anwser: 'ㄉㄧㄝ', options: 'ㄅㄆㄉㄧㄨㄌㄝㄩ' },
+    { chars: '貼鐵',      anwser: 'ㄊㄧㄝ', options: 'ㄅㄆㄉㄧㄨㄊㄝㄩ' },
     { chars: '怒奴努弩',  anwser: 'ㄋㄨ',   options: 'ㄅㄛㄜㄧㄨㄩㄚㄋ' },
-    { chars: '女',       anwser: 'ㄋㄩ',   options: 'ㄅㄛㄜㄧㄨㄩㄚㄋ' },
+    { chars: '女',        anwser: 'ㄋㄩ',   options: 'ㄅㄛㄜㄧㄨㄩㄚㄋ' },
     { chars: '那拿哪納',  anwser: 'ㄋㄚ',   options: 'ㄅㄛㄜㄧㄨㄩㄚㄋ' },
     { chars: '你擬尼泥',  anwser: 'ㄋㄧ',   options: 'ㄅㄛㄜㄧㄨㄩㄚㄋ' },
-    { chars: '羅落洛螺',  anwser: 'ㄌㄨㄛ',  options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
-    { chars: '勒',       anwser: 'ㄌㄜ',   options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
+    { chars: '羅落洛螺',  anwser: 'ㄌㄨㄛ', options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
+    { chars: '勒',        anwser: 'ㄌㄜ',   options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
     { chars: '率綠呂律',  anwser: 'ㄌㄩ',   options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
     { chars: '路陸魯鹿',  anwser: 'ㄌㄨ',   options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
-    { chars: '略掠',      anwser: 'ㄌㄩㄝ',  options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
+    { chars: '略掠',      anwser: 'ㄌㄩㄝ', options: 'ㄌㄛㄜㄧㄨㄩㄅㄝ' },
     { chars: '月越約閱',  anwser: 'ㄩㄝ',   options: 'ㄅㄆㄉㄧㄨㄊㄝㄩ' },
     { chars: '以億易義',  anwser: 'ㄧ',     options: 'ㄅㄆㄉㄧㄨㄊㄝㄩ' },
     { chars: '無五吳物',  anwser: 'ㄨ',     options: 'ㄅㄆㄉㄧㄨㄊㄝㄩ' },
