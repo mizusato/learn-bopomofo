@@ -23,7 +23,7 @@ let GlobalStyleSheet = create_sheet({
     },
     span: {
         'font-size': 20,
-        'color': 'hsl(0, 0%, 15%)'
+        'color': 'hsl(0, 0%, 25%)'
     },
     a: {
         'color': 'hsl(233, 80%, 60%)'
