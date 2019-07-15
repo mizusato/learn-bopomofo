@@ -13,7 +13,7 @@ let AN_EN_ANG_ENG = props => {
             <Img src={require('../../assets/ham-seal.png')} />
             <Title>2. ㄣ = en</Title>
             <Img src={require('../../assets/en.png')} />
-            <P><Span>「ㄣ」表示「隱」字的韻母「en」（yin=ien），是由「隱」字異體「𠃊」的小篆楷化而來：</Span></P>
+            <P><Span>「ㄣ」表示「隱」字的韻母「en」（yin=ien），是由「隱」字異體「𠃊」的小篆字形楷化而來：</Span></P>
             <Img src={require('../../assets/in-seal.png')} />
             <P><Span>《說文》：「𠃊，匿也。象{String.fromCodePoint(0x28485)}<Sub>（辶只）</Sub>曲隱蔽形。凡𠃊之屬皆从𠃊。讀若隱。<Sub>於謹切。</Sub>」</Span></P>
             <P><Span>需要注意的是，「in」韻母在注音中拼作「ㄧㄣ」（即 ien）而不是「ㄧㄋ」；「y」與「in」結合亦拼作「ㄧㄣ」而不是「ㄧㄧㄣ」，如：</Span></P>
