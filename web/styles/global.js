@@ -11,6 +11,7 @@ let GlobalStyleSheet = create_sheet({
         'overflow': 'hidden',
         'box-shadow': '0px 0px 5px hsl(0, 0%, 60%)'
     },
+    /* Content */
     content: {
         'overflow': 'hidden'
     },
@@ -57,6 +58,10 @@ let GlobalStyleSheet = create_sheet({
     },
     pager_separator: {
         'padding': '0rem 0.5rem'
+    },
+    /* List */
+    list_item: {
+        'margin': '0.5rem 0rem'
     },
     /* General */
     center: {

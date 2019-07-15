@@ -8,7 +8,7 @@ function HeadBoilerplate (props) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>{ props.title }</title>
           <style>
-            {'html { font-size: 18px; }'}
+            {'html { font-size: 18px; font-family: sans-serif; }'}
             {'body { width: 100%; margin: 0px; padding: 0px; }'}
             {'#__next { width: 100%; margin: 0px; padding: 0px; }'}
             {'#__next { display: flex; justify-content: center; }'}

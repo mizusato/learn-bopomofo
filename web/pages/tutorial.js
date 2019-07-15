@@ -1,8 +1,7 @@
 import ErrorPage from 'next/error'
 import Head from '../widgets/Head'
-import g from '../styles/global'
+import Container from '../widgets/Container'
 
-import About from '../compatible/tutorial/00-About'
 import Intro from '../compatible/tutorial/0-Intro'
 import BPMF from '../compatible/tutorial/1-BPMF'
 import AOE from '../compatible/tutorial/2-AOE'
@@ -41,13 +40,13 @@ function Tutorial (props) {
             title: Chapters[i+1].title
         }: null
     }
-    let title = Chapter.title.replace('📙', '')
+    let title = Chapter.title.replace('📙 ', '')
     return (
-        <div style={g('container')}>
+        <Container>
             <Head title={title} />
             <h2>{title}</h2>
             <Chapter nav_info={nav_info} />
-        </div>
+        </Container>
     )
 }
 

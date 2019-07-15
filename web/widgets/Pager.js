@@ -6,6 +6,9 @@ const TUTORIAL = name => `/tutorial?index=${encodeURIComponent(name)}`
 
 
 function Pager (props) {
+    if (props.info == null) {
+        return <div></div>
+    }
     return (
         <div style={g('pager')}>
             { (props.info.previous != null)? (
