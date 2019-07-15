@@ -17,12 +17,13 @@ function normalize_table (table) {
     }
     let four_columns = prefix => value => {
         let [top, right, bottom, left] = value.split(' ')
+        let N = v => (v.match(/^[0-9]+$/) != null)? Number(v): v
         assert(top)
         return {
-            [`${prefix}-top`]: Number(top),
-            [`${prefix}-right`]: Number(right || top),
-            [`${prefix}-bottom`]: Number(bottom || top),
-            [`${prefix}-left`]: Number(left || right || top)
+            [`${prefix}-top`]: N(top),
+            [`${prefix}-right`]: N(right || top),
+            [`${prefix}-bottom`]: N(bottom || top),
+            [`${prefix}-left`]: N(left || right || top)
         }
     }
     let rules = {
