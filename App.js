@@ -5,7 +5,7 @@ import { Pages } from './pages/tutorial/Index'
 
 const MainNavigator = createStackNavigator (
     Object.assign({ Home }, Pages),
-    { initialRouteName: 'Home'}
+    { initialRouteName: 'Home' }
 )
 
 const App = createAppContainer(MainNavigator);

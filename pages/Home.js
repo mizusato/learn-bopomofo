@@ -24,7 +24,7 @@ function Home (props) {
 
 
 Home.navigationOptions = {
-    title: '注音符号教学'
+    title: '注音符號教學'
 }
 
 
