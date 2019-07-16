@@ -1,6 +1,6 @@
 # ㄅㄆㄇㄈ Bopomofo Tutorial
 
-<img src="icon.png" />
+![Icon](icon.png)
 
 This is a Bopomofo tutorial app for Non-Taiwanese Chinese speakers, based on React Native.
 
