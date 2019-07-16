@@ -24,6 +24,8 @@ function Index (props) {
               )) }
             </ol>
             <About nav_info={null} />
+            <h3>手機應用程式</h3>
+            <p>暫時僅有 Android 版本：<a style={g('a')} href="https://sinograph.club/files/learn-bopomofo-armeabi-v7a-release.apk">APK 下載 (8MiB)</a></p>
         </Container>
     )
 }

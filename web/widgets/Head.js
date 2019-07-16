@@ -6,6 +6,7 @@ function HeadBoilerplate (props) {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
           <title>{ props.title }</title>
           <style>
             {'html { font-size: 18px; font-family: sans-serif; }'}

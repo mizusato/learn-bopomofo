@@ -63,6 +63,23 @@ let GlobalStyleSheet = create_sheet({
     list_item: {
         'margin': '0.5rem 0rem'
     },
+    /* Footer */
+    footer: {       
+        'display': 'flex',
+        'justify-content': 'center',
+        'margin-bottom': '0.2rem'
+    },
+    footer_hr: {
+        'margin-top': '2.5rem',
+        'color': 'hsl(0, 0%, 90%)'
+    },
+    footer_text: {
+        'color': 'hsl(0, 0%, 35%)',
+        'font-size': '0.7rem'
+    },
+    footer_link: {
+        'text-decoration': 'none'
+    },
     /* General */
     center: {
         'display': 'flex',

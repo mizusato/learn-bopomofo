@@ -1,6 +1,9 @@
 import ErrorPage from 'next/error'
+import Link from 'next/link'
 import Head from '../widgets/Head'
 import Container from '../widgets/Container'
+import Footer from '../widgets/Footer'
+import g from '../styles/global'
 
 import Intro from '../compatible/tutorial/0-Intro'
 import BPMF from '../compatible/tutorial/1-BPMF'
@@ -46,6 +49,8 @@ function Tutorial (props) {
             <Head title={title} />
             <h2>{title}</h2>
             <Chapter nav_info={nav_info} />
+            <Link href='/'><a style={g('a')}>回到目錄</a></Link>
+            <Footer />
         </Container>
     )
 }
