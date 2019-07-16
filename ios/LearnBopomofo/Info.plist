@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>注音符号轻松学</string>
+	<string>學習注音符號</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -56,6 +56,7 @@
 			</dict>
 		</dict>
 	</dict>
+    <!--
 	<key>NSCalendarsUsageDescription</key>
 	<string>Allow LearnBopomofo to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
@@ -78,5 +79,6 @@
 	<string>Give LearnBopomofo periences permission to access your photos</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Allow LearnBopomofo to access your reminders</string>
+-->
 </dict>
 </plist>

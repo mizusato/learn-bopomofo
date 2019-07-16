@@ -4,6 +4,25 @@ import { withNavigation } from 'react-navigation'
 import g from '../styles/global'
 
 
+function ReloadButton (props) {
+    let Wrapped = withNavigation(props => {
+        function reload () {
+            props.navigation.replace(props.navigation.state.routeName)
+        }
+        return (
+            <View style={g('next_button')}>
+              <TouchableOpacity onPress={reload}>
+                <Text style={g('next_button_text')}>
+                  { props.children }
+                </Text>
+              </TouchableOpacity>
+            </View>
+        )
+    })
+    return <Wrapped>{ props.children }</Wrapped>
+}
+
+
 function Pager (props) {
     function previous () {
         props.navigation.replace(String(props.info.previous.index))
@@ -58,4 +77,5 @@ function Pager (props) {
 }
 
 
+export { ReloadButton }
 export default withNavigation(Pager)

@@ -13,8 +13,8 @@ let Intro = props => (
       <P><Span>・這裡<Bold color='red'>不是</Bold>聲韻學教學。講解文中提到或引用的反切等聲韻學概念不會被多加解釋。</Span></P>
       <P><Span>・這裡<Bold color='red'>不是</Bold>文字學教學。講解文中對漢字源流的解釋可能不正確或有偏差，如有需要請參考相關權威著作。</Span></P>
       <Title>版權資訊</Title>
-      <P><Span>本程式中的講解文以「CC BY 3.0 TW」授權條款釋出（註：文中引用的古書內容已屬公眾領域，故不受該授權條款約束）；本程式的原始碼（除去包含講解文的部分），均釋出至公眾領域，代管在 <A href='http://notabug.org/mizusato/learn-bopomofo'>notabug.org</A>（由 Peers Community 營運）。</Span></P>
-      <P><Span>本程式中的圖檔包含：使用「教育部標準楷書 (CC BY-ND 3.0) 」字形製作的注音符號筆順圖，與講解文使用相同授權釋出；來自「漢語多功能字庫」的小篆字圖，屬於網上公開資源。（未注明授權條款，如本程式之使用涉及侵權請聯繫開發者）。</Span></P>
+      <P><Span>本程式中的講解文以「CC BY 3.0 TW」授權條款釋出（註：文中引用的古書內容已屬公眾領域，故不受該授權條款約束）；本程式的原始碼（除去包含講解文的部分），均釋出至公眾領域，代管在 <A href='https://notabug.org/mizusato/learn-bopomofo'>notabug.org</A>（由 Peers Community 營運）。</Span></P>
+      <P><Span>本程式中的圖檔包含：使用「教育部標準楷書 (CC BY-ND 3.0) 」字形製作的 App 圖示以及注音符號筆順圖，與講解文使用相同授權釋出；來自「漢語多功能字庫」的小篆字圖，屬於網上公開資源。（未注明授權條款，如本程式之使用涉及侵權請<A href='https://notabug.org/mizusato/learn-bopomofo/issues'>聯繫開發者</A>）。</Span></P>
       <Pager info={props.nav_info} />
     </Content>
 )

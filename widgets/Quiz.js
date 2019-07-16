@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
 import { Content, P, Span, Bold, Title, Display } from './Content'
-import Pager from './Pager'
+import Pager, { ReloadButton } from './Pager'
 import { assert, shuffle, choose } from '../tools/utility'
 import g from '../styles/global'
 
@@ -56,6 +56,8 @@ function Result (props) {
                             </Bold></Span>
                         </P>
                     )) }
+                    <ReloadButton>再試一次</ReloadButton>
+                    <Pager onlyNext={true} info={props.navInfo} />
                 </>
             ) }
         </Content>
